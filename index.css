@@ -1,0 +1,360 @@
+/*   --white: #2d2d2d;
+  --black: #fff;
+  --black-025: #393939;
+  --black-050: #3d3d3d;
+  --black-075: #404345;
+  --black-100: #4a4e51;
+  --black-150: #555a5e;
+  --black-200: #697075;
+  --black-300: #7d848d;
+  --black-350: #959ca3;
+  --black-400: #9fa6ad;
+  --black-500: #acb2b8;
+  --black-600: #c4c8cc;
+  --black-700: #cfd2d6;
+  --black-750: #dadee0;
+  --black-800: #e7e8eb;
+  --black-900: #f2f2f3; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Slab:wght@500;600;700&display=swap');
+ul {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+* {
+  font-family: 'Poppins';
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+main {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(244, 247, 250);
+}
+.md-24 {
+    font-size: 18px;
+  }
+.md-20 {
+  font-size: 21px;
+}
+.md-30 {
+    font-size: 24px;
+  }
+.md-36 {
+    font-size: 30px;
+  }
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+section {
+  margin-right: 10.5vw;
+  margin-left: 10.5vw;
+}
+header {
+  display: flex;
+  justify-content: space-between ;
+  padding-left: 10vw;
+  padding-right: 10.5vw;
+  height: 60px;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  position: sticky;
+  top: -1;
+  z-index: 999;
+  background-color: white;
+}
+.desk-func {
+  margin-top: 3px;
+}
+.desk-func a{
+  margin-left: 20px;
+  color: black;
+}
+.desk-func a:hover {
+  color:#5a9e6f ;
+}
+.func {
+  display: none;
+}
+nav {
+  display: none;
+}
+
+/* .post-news {
+  display: flex;
+  overflow-x: scroll;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 50px;
+  height: 5px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.article {
+  display: block;
+  width: 300px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  height: fit-content;
+  margin: 15px;
+}
+.article img {
+  border-radius: 10px 10px 0px 0px;
+  width: 300px;
+}
+.article a {
+  font-family: 'Roboto Slab';
+  text-decoration: none;
+  color: black;
+}
+.article a h4 {
+  margin-top: 0px;
+  margin-left: 10px;
+  text-align: justify;
+}
+.article p {
+  font-size: 16px;
+  font-family: 'Poppins';
+  margin-left: 10px;
+  text-align: justify;
+  padding-bottom: 10px;
+  margin-right: 10px;
+} 
+.promotion {
+  display: flex;
+  justify-content: space-between;
+  background-color: #555;
+  padding-top: 20px;
+  color: white;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 15px;
+  border-radius: 20px;
+  background-image: url('https://i.pinimg.com/originals/87/52/64/87526453743ce2ef7a4270d5439215b2.jpg');
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.iconic {
+  display: contents;
+  justify-content: space-between;
+  text-align: right;
+  width: 250px;
+  position: absolute;
+  right: 10.5vw;
+  margin-left: 90rem;
+}
+.iconic a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+.iconic-l {
+  margin-right: 10.5vw;
+}
+.iconic a i {
+  margin-right: 10px;
+}
+.text {
+ font-family: 'Poppins';
+}
+.text h2 {
+  font-size: 30px;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+
+.promotion a {
+  margin-top: 20px;
+  border: 3px solid white;
+  border-radius: 40px;
+  height: 40px;
+  color: white;
+  text-decoration: none;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.promotion a:hover {
+  background-color: white;
+  color: black;
+}
+.post-lay {
+  display: flex;
+  justify-content: space-between;
+}
+.post-con.on {
+  background-image: url('https://wallpapercave.com/wp/wp1832080.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100vw;
+  border-radius: 20px;
+  margin-right: 10px;
+  background-position: right;
+  height: 150px;
+  margin-top: 20px;
+}
+.post-con.on a {
+  color: white;
+  text-decoration: none;
+}
+.post-con.on h2 {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.post-con.on p {
+  color: white;
+  margin-left: 21px;
+}
+.post-con.tu {
+  background-image: url('https://wallpapercave.com/wp/wp1832080.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100vw;
+  height: 150px;
+  margin-left: 10px;
+  border-radius: 20px;
+  background-position: right;
+  margin-top: 20px;
+}
+.post-con.tu a {
+  color: white;
+  text-decoration: none;
+}
+.post-con.tu h2 {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.post-con.tu p {
+  color: white;
+  margin-left: 21px;
+}
+.gelumn {
+  float: left;
+  width: 33.33%;
+}
+.gelumn img {
+  width: 100%;
+}
+.gen-img {
+  column-gap: 50px;
+}
+.gen-img:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 700px) {
+  .desk-func {
+    display: none;
+  }
+  .gelumn {
+    width: 100%;
+  }
+  .iconic-l {
+    margin-right: 20px;
+  }
+  .iconic a {
+    font-size: 16px;
+  }
+  .post-lay {
+    display: block;
+  }
+  .post-con.on {
+    margin-top: 0;
+    width: 100%;
+  }
+  .post-con.tu {
+    margin: 0;
+    width: 100%;
+  }
+  .promotion {
+    display: block;
+    padding-bottom: 20px;
+  }
+  .func {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  .func a {
+    color: black;
+  }
+  nav {
+    display: none;
+    margin-top: 60px;
+    width: 250px;
+    border-right: 1px solid #e2e2e2;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+    left: 0;
+    margin-top: 91px;
+    z-index: 1;
+  }
+  nav a {
+    color: black;
+    display: flex;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    margin-right: 4px;
+  }
+  nav a:hover {
+    background-color: #e1e1e1;
+    color: black;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    list-style: none;
+    padding-top: 5px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 60px;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    position: sticky;
+    background-color: white;
+    z-index: 9;
+    
+    top: 0;
+  }
+  section {
+    width: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
