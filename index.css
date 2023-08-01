@@ -15,7 +15,10 @@
   --black-750: #dadee0;
   --black-800: #e7e8eb;
   --black-900: #f2f2f3; */
-
+@font-face {
+  font-family: gtcNor;
+  src: url(./fonts/gothic_nor.otf);
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Slab:wght@500;600;700&display=swap');
 ul {
   margin: 0;
@@ -25,7 +28,7 @@ a {
   text-decoration: none;
 }
 * {
-  font-family: 'Poppins';
+  font-family: 'gtcNor';
 }
 body {
   margin: 0;
