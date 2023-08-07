@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 /*   --white: #2d2d2d;
   --black: #fff;
   --black-025: #393939;
@@ -17,18 +18,17 @@
   --black-900: #f2f2f3; */
 @font-face {
   font-family: gtcNor;
-  src: url('https://trailton.github.io/fonts/gothic_nor.otf');
+  src: url('https://trailton.github.io/fonts/gothic_semi.otf');
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Slab:wght@500;600;700&display=swap');
 ul {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 a {
   text-decoration: none;
 }
 * {
-  font-family: 'gtcNor';
+  font-family: 'Poppins', serif;
 }
 body {
   margin: 0;
@@ -69,7 +69,7 @@ header {
   border-top: 1px solid #e2e2e2;
   border-bottom: 1px solid #e2e2e2;
   position: sticky;
-  top: -1;
+  top: 0;
   z-index: 999;
   background-color: white;
 }
@@ -133,7 +133,7 @@ nav {
 }
 .article p {
   font-size: 16px;
-  font-family: 'gtcNor';
+  font-family: 'Poppins';
   margin-left: 10px;
   text-align: justify;
   padding-bottom: 10px;
@@ -154,6 +154,70 @@ nav {
   background-position-x: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.promotion1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #555;
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-image: url('https://i.pinimg.com/564x/27/a1/83/27a1837e19a3abeaad03c257c766736a.jpg');
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.promotion2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #555;
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-image: url('https://i.pinimg.com/564x/0f/e5/34/0fe534ea124e864724b071746b6803ab.jpg');
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.promotion3 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #555;
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-image: url('https://i.pinimg.com/564x/96/c7/d0/96c7d064c90cb9fd1f220f2030880735.jpg');
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.promotion4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #555;
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-image: url('https://i.pinimg.com/564x/22/91/64/2291642ec4759189e5fa8c524dd89de9.jpg');
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .iconic {
   display: contents;
@@ -177,11 +241,11 @@ nav {
   margin-right: 10px;
 }
 .text {
- font-family: 'gtcNor';
+ font-family: 'Poppins';
 }
 .text h2 {
   font-size: 30px;
-  font-family: 'gtcNor';
+  font-family: 'Poppins';
   font-weight: 600;
 }
 
@@ -196,9 +260,24 @@ nav {
   padding-left: 10px;
   padding-right: 10px;
 }
+.general a {
+    margin-top: 20px;
+    border: 3px solid white;
+    border-radius: 40px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .promotion a:hover {
-  background-color: white;
-  color: black;
+    background-color: white;
+    color: black;
+}
+.general a:hover {
+    background-color: white;
+    color: black;
 }
 .post-lay {
   display: flex;
@@ -360,4 +439,9 @@ nav {
     margin-right: 20px;
     margin-left: 20px;
   }
+}
+/* footer */
+footer {
+    height: 200px;
+    background-color:burlywood;
 }
